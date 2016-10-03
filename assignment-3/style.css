@@ -85,4 +85,13 @@ a.hero-card-link:hover {
     padding:20px;
     margin:20px;
 }
+ /* Search */
  
+ .search-placeholder {
+     width:600px;
+     height:400px;
+     background-color: #ddd;
+     margin:20px auto;
+     padding:20px;
+     
+ }
