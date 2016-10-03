@@ -38,6 +38,7 @@ a:hover {
     font-size: 30px;
     font-weight:300;
     margin:20px 0;
+   
 }
 
 .hero-card-description {
@@ -69,12 +70,14 @@ a.hero-card-link:hover {
      border: 1px solid #ddd;
      width: 300px;
      margin: 20px auto;
+     position:center;
  }
 
 .card-title {
     padding: 10px 20px;
     margin: 20px 0 10px 0;
     font-size: 24px;
+    position:center;
 } 
  
 /* About */
@@ -93,6 +96,7 @@ a.hero-card-link:hover {
      background-color: #ddd;
      margin:20px auto;
      padding:20px;
+     position:center;
      
  }
  
