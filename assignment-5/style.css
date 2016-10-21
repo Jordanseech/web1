@@ -1,7 +1,9 @@
 /*
 General Styling
 */
-@import 'https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i';
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+
 body {
     font-family: 'Roboto', arial, sans-serif;
     font-weight: 400;
@@ -19,13 +21,13 @@ a:hover {
 /* Home */
 .card {
     background-color: #fff;
-    box-shadow: 2px px 3px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
     width: 300px;
     min-height: 310px;
     margin: 10px;
     float: left;
     text-decoration: none;
-    color #333;
+    color: #333;
     transition: all .2s ease; 
 }
 .card img {
@@ -34,7 +36,7 @@ a:hover {
 }
 .card:hover {
     transform: scale(1.025);
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0,3);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
 .card-title {
 padding: 0 20px;
@@ -117,9 +119,9 @@ a.nav-link:hover {
 .logo {
     float: left;
     margin-right: 100px;
-    width: 0:
+    width: 0;
     height: 0;
-    color: rgba (255, 255, 255, 0);
+    color: rgba (255, 255, 255, 1);
     padding: 60px 160px 0 0;
     background-image: url(images/logo.png);
     background-size: 120px 60px;
@@ -217,7 +219,7 @@ cite {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    box-shadow: 2px 2px 3px rgba(0,0,0,0,3);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0,0.3);
 }
 .about-list-container {
     border-left: 5px solid #d69e00;
