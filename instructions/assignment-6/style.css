@@ -1,0 +1,50 @@
+body {
+background-color:#333;
+}
+
+.hero  {
+    background-color:#d3a21f;
+    padding:200px 200px 200px 200px;
+    background-image: url("demo/blueberries.png");
+    background-size:auto 200px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top center
+    padding:100px;
+    background-attachment:fixed;
+}
+.coffee {
+    background-color:#d3a21f;
+    padding:200px 200px 200px 200px;
+    background-image: url("demo/coffee.jpg");
+    background-size:auto 200px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top center
+    padding:100px;
+    background-attachment:fixed;
+}
+.spacer {
+    height:2000px;
+}
+
+h1 {
+    color:white;
+    text-align:center;
+}
+
+.card {
+    background-color:white;
+    width: 32%;
+    display:inline-block;
+}
+
+
+#square {
+    margin-top:150px;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    height:400px;
+    background-color:yellow;
+}
