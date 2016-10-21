@@ -39,10 +39,10 @@ a:hover {
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
 .card-title {
-padding: 0 20px;
-margin: 20px 0 10px 0;
-font-family: Cormorant, cursive;
-font-size: 24px;
+    padding: 0 20px;
+    margin: 20px 0 10px 0;
+    font-family: Cormorant, cursive;
+    font-size: 24px;
 }
 .card-description {
     padding: 0 20px;
@@ -214,29 +214,7 @@ cite {
 .menu .label {
     text-align: left;
 }
-/* About */
-.about-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    box-shadow: 2px 2px 3px rgba(0,0,0,0,0.3);
-}
-.about-list-container {
-    border-left: 5px solid #d69e00;
-    padding: 20px 50px;
-    margin-bottom: 50px;
-}
-.about-list-title {
-    font-size: 30px;
-    font-weight: 400;
-    color: #d69e00;
-}
-.about-list {
-    font-size: 24px;
-}
-.about-list li {
-    margin: 1em auto;
-}
+
 .hero1 {
     text-align: center;
     overflow: auto;
