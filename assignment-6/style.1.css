@@ -1,259 +1,319 @@
 /*
-    General Styling
+General Styling
 */
-@import 'https://fonts.googleapis.com/css?family=Cormorant|Roboto:100i,300,400,500,500i,700';
 
-.body {
-    font-family:roboto,aerial,sans-serif;
-    font-weight:400;
-    background-color:#f1f1f1;
-    color:#333;
-    margin:0;
+@import url('https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #d69e00;
+}
+a:hover {
+    color: #e4b532;
 }
 
-/* Navigation */
+
+
+/* Home */
+.card {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    width: 300px;
+    min-height: 310px;
+    margin: 10px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    transition: all .2s ease; 
+}
+.card img {
+    margin-bottom: 15px;
+    width: 300px;
+}
+.card:hover {
+    transform: scale(1.025);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.card-title {
+    padding: 0 20px;
+    margin: 20px 0 10px 0;
+    font-family: 'Helvetica',bold;
+    font-size: 24px;
+}
+.card-description {
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    color: #999;
+    }
+/*
+Hero
+*/
+.hero {
+    background-color: #16445f;
+    text-align: center;
+    overflow: auto;
+}
+.hero-card {
+    border: 2px solid #fff;
+    color: #efefef;
+    padding: 50px;
+    width: 800px;
+    margin: 100px auto 50px auto;
+    }
+.hero-card-title {
+    font-family:Helvetica,bold;
+    margin: 0;
+    font-size: 50px;
+    }
+.hero-card-description {
+    font-family: 'cormorant', serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+a.hero-card-link {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+}
+a.hero-card-link:hover {
+    color: #D69E00;
+    border-color: #D69E00;
+}
+/*
+Navigation
+*/
 .main-nav {
-    max-width:960px;
-    margin:20px auto;
-    text-align:right;
-    }
+    
+    max-width: 960px;
+    text-align: right;
+    margin: 20px auto;
+}
 a.nav-link {
-    box-sizing:border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 40px;
+    line-height: 38px;
     color:#fff;
-    text-decoration:none;
-    height:40px;
-    line-height:38px;
-    font-size:20px;
-    font-family:Cormorant,cursive;
-    display:inline-block;
-    margin:10px 5px;
-    padding:0 15px;
-    border-radius:20px;
-    border:2px solid rgba (255,255,255,0);
-    transition:all 0.2 ease;
-    }    
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 0px 15px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    font-family: 'Cormorant', script;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
 a.nav-link:hover {
-    color:#FFD86B;
-    border-color:#FFD86B;
-    background-color:rgba(0,0,0,0,4);
-    }
-    
-#logo {
-    float:left;
-    margin-right:100px;
-    width:0;
-    height:0;
-    color:rgba(255,255,255,0);
-    padding:60px 160px 0 0;
-    background-image:url(images/logo.png);
-    background-size:120px 60px;
-    background-position:center;
-    background-repeat:no-repeat;
-    border-radius:3px;
-    transition:all 0.2 ease;
-    
-    
-} 
-
+    color: #FFD86B;
+    border-color: white;
+    background-color: rgba (0, 0, 0, 0.4);
+}
+.logo {
+    float: left;
+    margin-right: 100px;
+    width: 0;
+    height: 0;
+    color: rgba (255, 255, 255, 1);
+    padding: 60px 160px 0 0;
+    background-image: url(images/logo1.png);
+    background-size: 120px 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
 #logo:hover {
-    background-color:rgba (0,0,0,0,4);
+    background-color: rgba(0, 0, 0, 0.4);
+}/*
+Hero
+*/
+.hero {
+    background-color: #222;
+    background-repeat:no-repeat;
+    background-position:center center;
+    overflow: auto;
+}
+.hero-card {
+    box-sizing:border-box;
+    background-color: rgba (0,0,0,0.73);
+    color:#efefef;
+    margin:110px auto 60px auto;
+    padding: 50px;
+    max-width: 960px;
+    text-align:center;
+    box-shadow:2px 1px 4px rgba(0,0,0,0.3);
+    
+}
+.hero-card-title {
+    font-family: helvetica,bold;
+    margin: 0;
+    font-size: 50px;
+}
+.hero-card-description {
+    font-family: 'cormorant',san-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+a.hero-card-link {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border-radius: 2px solid #efefef;
+    padding: 5px 20px;
+    display:inline-block;
+    transition:all 0.2 ease;
+}
+a.hero-card-link:hover {
+    color: #D69E00;
+    border-color: #D69E00;
+}
+/*
+Navigation
+*/
+.main-nav {
+    
+    max-width: 960px;
+    text-align: right;
+    margin: 20px auto;
 }
 
+
+/*
+Main Content
+*/
 .main-content {
-    margin:50px auto;
+    margin: 50px auto;
     width: 960px;
 }
-
-
 .clear {
-    clear:both;
+    clear: both;
 }
+/*
+Footer
+*/
+.footer {
+    background-color: #333;
+    color: #999;
+    padding: 20px;
+    text-align: center;
+}
+.footer-link {
+    color: #AB810A;
+    text-decoration: none;
+}
+.footer-link:hover {
+ color: #D69E00;   
+}
+/*
+Search
+*/
+.search-placeholder {
+    width: 600px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+}
+/*
+Assignments
+*/
+.assignment-list dt {
+  margin-top:20px; 
+  }
 
-.hero {
-      background-image: url('images/woods.jpg');
-    text-align:center;
-    overflow:auto;
+.assignment-list a {
+    color:#3c8bce;
+    font-size:18px;
+    
+    
+    }
+    
+.assignment-list a:hover {
+    color:#115690;
+    }   
+    
+.assignment-list dd {
+    margin-left:0;
+    }    
+.assignment-list dl {
+   border:4px solid #ddd;
+   padding:20px;
+   width:860px;
+   margin:20px auto;
+  }
+  
+
+/*
+Coffee
+*/
+.coffee-quote {
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px 15px;
+    border-left: 5px solid #d69e00;
+}
+    
+cite {
+    display: block;
+    color: #666;
+    font-size: 16px;
+}
+.menu th {
+    padding: 10px;
+}
+.menu .size {
+    min-width: 150px;
+    text-align: right;
+    font-size: 14px;   
+}
+.menu td {
+    padding: 10px 10px;
+    vertical-align: top;
+    text-align: right;
+}
+.menu dd {
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+.menu .label {
+    text-align: left;
 }
 
 .hero1 {
-      background-image: url('images/about.jpg');
-    text-align:center;
-    overflow:auto;
-    
+    text-align: center;
+    overflow: auto;
 }
 .hero2 {
-      background-image: url('images/nokayak.png');
-    text-align:center;
-    overflow:auto;
-    
-}
-.hero3 {
-      background-image: url('images/coffee1.jpg');
-    text-align:center;
-    overflow:auto;
-    
-}
-.hero4 {
-      background-image: url('images/search1.jpg');
-    text-align:center;
-    overflow:auto;
-    
-}
-.hero5 {
-      background-image: url('images/assignments1.jpg');
-    text-align:center;
-    overflow:auto;
-    
-}
-.hero-card {
-    border:2px solid #fff;
-    color:#efefef;
-    padding:50px;
-    width:800px;
-    margin:100px auto 50px auto;
+    background-color:red;
+    text-align: center;
+    overflow: auto;
 }
 
-.hero-card-title {
-    font-family:helvetica,bold;
-    margin:0;
-    font-size:50px;
-}
-
-.hero-card-description {
-    font-family:georgia,serif;
-    font-size:30px;
-    font-weight:300;
-    margin:20px 0;
-}
-
-a.hero-card-link {
-    text-decoration:none;
-    color:#efefef;
-    font-size:18px;
-    border:2px solid #efefef;
-    padding:5px 20px;
-}
-
-   footer {
-    background-color:#333;
-    color:white;
-    padding:20px;
-    text-align:center;
-    
-}
-
-.footer-link {
-    color:#AB810A;
-    text-decoration:none;
-    }
-    
-.footer-link:hover {
-    color:#D69E00;
-    text-decoration:underline;
-}    
-
-  
- 
-      
-      
-  }
-  
-  .card-title {
-      padding:10px 20px;
-      margin:20px 0 10px 0;
-      font-size:24px;
-       }
-       
-.card {
-    background-color:#fff;
-    box-shadow:2px 2px 3px rgba(0,0,0,0,0.2);
-    width:300px;
-    min-height:310px;
-    margin:10px;
-    float:left;
-    text-decoration:none;
-    color:#333;
-    transition:all .2 ease;
-    border-color:#ddd;
-}       
-.card img {
-    margin-bottom:15px;
-    width:300px;
-}
-.card:hover {
-    transform:scale(1.025);
-    box-shadow:0px 2px 3px rgba(0,0,0,0,0.3);
-    }
-.card-title {
-    padding:0 20px;
-    margin:20px 0 10px 0;
-    font-family:Cormorant,cursive;
-    font-size:24px;
-    }
-.card-description {
-    padding:0 20px;
-    margin:0 0 20px 0;
-    color:#999;
+.clear {
+    clear:both;
 }
 
 .about-photo {
     width:200px;
     height:200px;
     border-radius:100px;
-    box-shadow:2px 2px 3px rgba(0,0,0,0,0.3);
-    }
-.about-list-container {
-    border-left:5px solid #1a02fe;
-    margin-bottom:50px;
-    padding:20px 50px;
-    }    
-.about-list-title {
-    font-size:30px;
-    font-weight:400;
-    color:#1a02fe;
-    }
-.about-list {
-    font-size:24px;
-}    
-
-.about-listli {
-    margin:1em auto;
+    box-shadow:2px 2px 3px (0,0,0,0.3);
 }
 
-.coffee-quote {
-    font-size:30px;
-    color:#16445f;
-    }
-.menu {
-    border:4px solid #ddd;
-    text-align:left;
-    padding:20px;
-}    
+fonts.googleapis.com
+@font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 300; src: local('Cormorant Light'), local('Cormorant-Light'), url(https://fonts.gstatic.com/s/cormorant/v1/diggKPcUerIA8GQWRVxsVYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype'); } @font-face { font-family: 'Cormorant'; font-style:...
+fonts.googleapis.com
 
-dt {
-    font-size:20px;
-    font-weight:bold;
-    margin-bottom:5px;
-}
-
-dd {
-    color:#666;
-    margin-left:20px;
-    margin-bottom:20px;
-}
-
-.assignments-list {
-    border:4px solid #ddd;
-    padding:20px;
-    margin:20px auto;
-    width:860px;
-}
-
-.search-placeholder {
-    width:600px;
-    height:400px;
-    background-color:#ddd;
-    margin:20px auto;
-    padding:20px;
-    text-align:center;
-}

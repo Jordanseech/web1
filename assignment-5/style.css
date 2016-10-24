@@ -18,6 +18,9 @@ a, a:visited {
 a:hover {
     color: #e4b532;
 }
+
+
+
 /* Home */
 .card {
     background-color: #fff;
@@ -66,9 +69,10 @@ Hero
     
 }
 .hero-card-title {
-    font-family: 'roboto', serif;
+    font-family: 'helvetica bold'
     margin: 0;
     font-size: 50px;
+    
 }
 .hero-card-description {
     font-family: 'cormorant', serif;
@@ -101,7 +105,7 @@ a.nav-link {
     text-decoration: none;
     height: 40px;
     line-height: 38px;
-    color: #fff;
+    color:#fff;
     font-size: 20px;
     margin: 10px 5px;
     padding: 0px 15px;
@@ -113,7 +117,7 @@ a.nav-link {
 }
 a.nav-link:hover {
     color: #FFD86B;
-    border-color: #FFD86B;
+    border-color: white;
     background-color: rgba (0, 0, 0, 0.4);
 }
 .logo {
@@ -132,7 +136,55 @@ a.nav-link:hover {
 }
 #logo:hover {
     background-color: rgba(0, 0, 0, 0.4);
+}/*
+Hero
+*/
+.hero {
+    background-color: #16445f;
+    text-align: center;
+    overflow: auto;
 }
+.hero-card {
+    border: 2px solid #fff;
+    color: #efefef;
+    padding: 50px;
+    width: 800px;
+    margin: 100px auto 50px auto;
+    
+}
+.hero-card-title {
+    font-family: 'roboto', serif;
+    margin: 0;
+    font-size: 50px;
+}
+.hero-card-description {
+    font-family: 'cormorant', serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+a.hero-card-link {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+}
+a.hero-card-link:hover {
+    color: #D69E00;
+    border-color: #D69E00;
+}
+/*
+Navigation
+*/
+.main-nav {
+    
+    max-width: 960px;
+    text-align: right;
+    margin: 20px auto;
+}
+
+
 /*
 Main Content
 */
@@ -172,12 +224,32 @@ Search
 /*
 Assignments
 */
-.assignment-list {
-    border: 4px solid #ddd;
-    padding: 20px;
-    margin: 20px auto;
-    width: 860px;
-}
+.assignment-list dt {
+  margin-top:20px; 
+  }
+
+.assignment-list a {
+    color:#3c8bce;
+    font-size:18px;
+    
+    
+    }
+    
+.assignment-list a:hover {
+    color:#115690;
+    }   
+    
+.assignment-list dd {
+    margin-left:0;
+    }    
+.assignment-list dl {
+   border:4px solid #ddd;
+   padding:20px;
+   width:860px;
+   margin:20px auto;
+  }
+  
+
 /*
 Coffee
 */
@@ -186,6 +258,7 @@ Coffee
     padding: 20px;
     margin: 20px 15px;
     border-left: 5px solid #d69e00;
+}
     
 cite {
     display: block;
@@ -198,7 +271,7 @@ cite {
 .menu .size {
     min-width: 150px;
     text-align: right;
-    font-size: 14px;
+    font-size: 14px;   
 }
 .menu td {
     padding: 10px 10px;
@@ -224,6 +297,19 @@ cite {
     text-align: center;
     overflow: auto;
 }
+
+.clear {
+    clear:both;
+}
+
+.about-photo {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    box-shadow:2px 2px 3px (0,0,0,0.3);
+}
+
 fonts.googleapis.com
 @font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 300; src: local('Cormorant Light'), local('Cormorant-Light'), url(https://fonts.gstatic.com/s/cormorant/v1/diggKPcUerIA8GQWRVxsVYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype'); } @font-face { font-family: 'Cormorant'; font-style:...
 fonts.googleapis.com
+
