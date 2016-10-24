@@ -40,6 +40,8 @@ a:hover {
 .card:hover {
     transform: scale(1.025);
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    
+    
 }
 .card-title {
     padding: 0 20px;
@@ -52,46 +54,8 @@ a:hover {
     margin: 0 0 20px 0;
     color: #999;
     }
-/*
-Hero
-*/
-.hero {
-    background-color: #16445f;
-    text-align: center;
-    overflow: auto;
-}
-.hero-card {
-    border: 2px solid #fff;
-    color: #efefef;
-    padding: 50px;
-    width: 800px;
-    margin: 100px auto 50px auto;
-    }
-.hero-card-title {
-    font-family:Helvetica,bold;
-    margin: 0;
-    font-size: 50px;
-    }
-.hero-card-description {
-    font-family: 'cormorant', serif;
-    font-size: 30px;
-    font-weight: 300;
-    margin: 20px 0;
-}
-a.hero-card-link {
-    text-decoration: none;
-    color: #efefef;
-    font-size: 18px;
-    border: 2px solid #efefef;
-    padding: 5px 20px;
-}
-a.hero-card-link:hover {
-    color: #D69E00;
-    border-color: #D69E00;
-}
-/*
-Navigation
-*/
+
+
 .main-nav {
     
     max-width: 960px;
@@ -134,15 +98,14 @@ a.nav-link:hover {
 }
 #logo:hover {
     background-color: rgba(0, 0, 0, 0.4);
-}/*
-Hero
-*/
+}
 .hero {
     background-color: #222;
     background-repeat:no-repeat;
     background-position:center center;
-    overflow: auto;
-}
+    background-size:cover;
+    overflow:auto;
+    }
 .hero-card {
     box-sizing:border-box;
     background-color: rgba (0,0,0,0.73);
@@ -151,16 +114,17 @@ Hero
     padding: 50px;
     max-width: 960px;
     text-align:center;
-    box-shadow:2px 1px 4px rgba(0,0,0,0.3);
-    
-}
+    box-shadow:2px 1px 4px rgba(0,0,0.3);
+   }
+
+
 .hero-card-title {
     font-family: helvetica,bold;
     margin: 0;
     font-size: 50px;
-}
+    }
 .hero-card-description {
-    font-family: 'cormorant',san-serif;
+    font-family: 'cormorant', san-serif;
     font-size: 30px;
     font-weight: 300;
     margin: 20px 0;
@@ -169,6 +133,7 @@ a.hero-card-link {
     text-decoration: none;
     color: #efefef;
     font-size: 18px;
+    border:2px solid #efefef;
     border-radius: 2px solid #efefef;
     padding: 5px 20px;
     display:inline-block;
@@ -235,9 +200,7 @@ Assignments
 .assignment-list a {
     color:#3c8bce;
     font-size:18px;
-    
-    
-    }
+   }
     
 .assignment-list a:hover {
     color:#115690;
@@ -249,7 +212,7 @@ Assignments
 .assignment-list dl {
    border:4px solid #ddd;
    padding:20px;
-   width:860px;
+   width:600px;
    margin:20px auto;
   }
   
@@ -261,7 +224,7 @@ Coffee
     font-size: 30px;
     padding: 20px;
     margin: 20px 15px;
-    border-left: 5px solid #d69e00;
+    border-left: 5px solid #3c8bce ;
 }
     
 cite {
@@ -292,15 +255,7 @@ cite {
     text-align: left;
 }
 
-.hero1 {
-    text-align: center;
-    overflow: auto;
-}
-.hero2 {
-    background-color:red;
-    text-align: center;
-    overflow: auto;
-}
+
 
 .clear {
     clear:both;
@@ -313,6 +268,26 @@ cite {
     box-shadow:2px 2px 3px (0,0,0,0.3);
 }
 
+#home .hero {
+ background-image: url('images/woods.jpg');
+ /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
+}
+#about .hero {
+ background-image: url('images/about1.jpg');
+ /* photo from @veeterzy https://unsplash.com/search/blueberries?photo=Hc42xXu_WOg*/
+}
+#coffee .hero {
+ background-image: url('images/coffee1.jpg');
+ /* photo from Jakub Kapusnak https://foodiesfeed.com/flatwhite-coffee-closeup-berlin */
+}
+#search .hero {
+ background-image: url('images/search1.jpg');
+ /* Photo from drew collins https://unsplash.com/?photo=U713MZX1x0w */
+}
+#assignments .hero {
+ background-image: url('images/assignments1.jpg');
+ /* photo from Stefan Kunze https://unsplash.com/?photo=_SmZSuZwkHg*/
+}
 fonts.googleapis.com
 @font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 300; src: local('Cormorant Light'), local('Cormorant-Light'), url(https://fonts.gstatic.com/s/cormorant/v1/diggKPcUerIA8GQWRVxsVYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype'); } @font-face { font-family: 'Cormorant'; font-style:...
 fonts.googleapis.com
