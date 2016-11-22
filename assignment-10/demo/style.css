@@ -1,0 +1,102 @@
+body {
+    background-color:#efefef;
+    font-family: arial,sans-serif;
+    margin:0;
+}
+
+.main-nav{
+    background-color:#333333;
+    font-size:20px;
+    text-align: center;
+    position: fixed;
+    width:100%;
+}
+.nav-teal {
+    color:#62B7BB;
+}
+.nav-blue {
+    color:#288bcd;
+}
+.nav-red {
+    color:#ee5573;
+}
+.nav-yellow {
+    color:#ffa73a;
+}
+
+.nav-link {
+    text-decoration:none;
+    padding:10px 20px;
+    display:inline-block;
+    border-radius:3px;
+    margin:5px;
+    
+}
+.nav-link:hover {
+    background-color: rgba(255,255,255,0.1);
+    
+}
+
+/*hero style*/
+
+.hero {
+    min-height:400px;
+    text-align:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:white;
+
+}
+.hero-blue {
+    background-image: url('images/snow-blue.jpg');
+}
+.hero-yellow {
+        background-image: url('images/city-yellow.jpg');
+}
+.hero-red {
+        background-image: url('images/mountains-red.jpg');
+}
+
+.hero-h1 {
+    margin:0;
+    padding-top:100px;
+}
+.left-box {
+    background-color: #ffa73a;
+    width:300px;
+    height:300px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right: 20px
+}
+.left-box-yellow {
+    background-color:#ffa73a;
+}
+.left-box-red {
+    background-color:#ee5573;
+}
+.left-box-blue {
+    background-color:#288bcd;
+}
+
+.right-box {
+    border:2px solid #ffa73a;
+    width:300px;
+    height:300px;
+    display:inline-block;
+    vertical-align: top;
+   
+}
+.right-box-red {
+    border-color:#ee5573;
+}
+.right-box-yellow {
+    border-color:#ffa73a;
+}
+.right-box-blue {
+    border-color:#288bcd;
+}
+.main-content {
+    text-align:center;
+}

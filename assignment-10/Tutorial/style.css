@@ -1,0 +1,63 @@
+body {
+    background-color:#efefef;
+    font-family: helvetica,bold;
+    margin:0;
+}
+
+.nav-link {
+    
+    display:inline-block;
+    margin:10px;
+    text-align:right;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    
+    
+    
+}
+.nav-link:hover {
+    color:black;
+   
+    
+}
+
+.main-nav{
+    background-color:51657f;
+    font-size:15px;
+    text-align: right;
+    position: fixed;
+    width:100%;
+    padding:10;
+}
+
+.hero {
+    min-height:650px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center center;
+    
+
+}
+
+.hero-home {
+    background-image: url('images/artboard1.png');
+}
+
+.hero-type {
+    background-image: url('images/artboard2.png');
+}
+
+.hero-bait {
+    background-image: url('images/artboard3.png');
+}
+
+.hero-tips {
+    background-image: url('images/artboard4.png');
+}
+
+.logo {
+    float: left;
+    background-image: url(images/logo.png);
+    
+}
