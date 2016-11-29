@@ -33,10 +33,10 @@ body {
 .main-nav {
     background-color:51657f;
     font-size:15px;
-    max-width: 960px;
+    max-width:100%;
     text-align: right;
     margin: 20px auto;
-    width:100%;
+    
     
 }
 
