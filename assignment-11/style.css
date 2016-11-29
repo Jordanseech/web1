@@ -3,6 +3,18 @@ body {
     font-family: helvetica,bold;
     margin:0;
 }
+.logo {
+    float: left;
+    margin-right: 50px;
+    width: 0;
+    height: 0;
+    padding: 60px 160px 0 0;
+    background-image: url(images/logo.png);
+    background-size: 100px 50px;
+    background-repeat: no-repeat;
+ 
+}
+
 
 .nav-link {
     
@@ -12,34 +24,49 @@ body {
     padding:10px;
     color:white;
     text-decoration: none;
-    
-}
+    }
 .nav-link:hover {
     color:black;
-   
-    
-}
+  }
 
-.main-nav{
+.main-nav {
     background-color:51657f;
     font-size:15px;
+    max-width: 960px;
     text-align: right;
-    position: fixed;
-    width:100%;
-    padding:10;
+    margin: 20px auto;
 }
 
 .hero {
-    min-height:650px;
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center center;
-    
+    }
 
+.hero-card {
+    border: 2px solid #fff;
+    color: #efefef;
+    padding:20px;
+    width: 500px;
+    margin: 400px auto 100px auto;
+    
+    
+} 
+.hero-card-title {
+    font-family: Helvetica, bold;
+    margin: 0;
+    font-size: 30px;
+    font:#efefef;
+    text-align:center;
 }
 
-.hero-home {
-    background-image: url('images/artboard1.png');
+.description {
+    color:#efefef;
+    font-size:20px;
+    text-align:center;
+    padding:20px;
+    width: 500px;
+    margin: 400px auto 100px auto;
 }
 
 .hero-type {
@@ -52,4 +79,8 @@ body {
 
 .hero-tips {
     background-image: url('images/artboard4.png');
+}
+
+.hero-home {
+    background-image: url('images/artboard1.png');
 }

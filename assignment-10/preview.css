@@ -1,0 +1,98 @@
+/*
+General Styling
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+
+body {
+    font-family: helvetica, bold;
+    font-weight: 400;
+    
+    color: #333;
+    margin: 0;
+}
+, a:visited {
+    text-decoration: none;
+    color: #d69e00;
+}
+:hover {
+    color: #e4b532;
+}
+
+
+
+
+.main-nav {
+    
+    max-width: 960px;
+    text-align: right;
+    margin: 20px auto;
+}
+.nav-link {
+    
+    display:inline-block;
+    margin:10px;
+    text-align:right;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    }
+.nav-link:hover {
+    color:black;
+  }
+.logo {
+    float: left;
+    margin-right: 100px;
+    width: 0;
+    height: 0;
+    color: rgba (255, 255, 255, 1);
+    padding: 60px 160px 0 0;
+    background-image: url(images/logo.png);
+    background-size: 120px 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+#logo:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}/*
+Hero
+*/
+.hero {
+    background-color: #16445f;
+    text-align: center;
+    overflow: auto;
+}
+.hero-card {
+    border: 2px solid #fff;
+    color: #efefef;
+    padding: 50px;
+    width: 800px;
+    margin: 100px auto 50px auto;
+    
+}
+.hero-card-title {
+    font-family: 'roboto', serif;
+    margin: 0;
+    font-size: 50px;
+}
+.hero-card-description {
+    font-family: 'cormorant', serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.hero-card-link {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+}
+.hero-card-link:hover {
+    color: #D69E00;
+    border-color: #D69E00;
+}
+
+
