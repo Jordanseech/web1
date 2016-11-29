@@ -13,9 +13,6 @@ body {
     color:white;
     text-decoration: none;
     
-    
-    
-    
 }
 .nav-link:hover {
     color:black;
@@ -56,4 +53,3 @@ body {
 .hero-tips {
     background-image: url('images/artboard4.png');
 }
-
