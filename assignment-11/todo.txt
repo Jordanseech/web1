@@ -1,0 +1,68 @@
+To Do List 
+
+Index 
+- nav 
+-   Splash Page 
+How to cast and reel fish
+How to tie a clinch knot 
+text
+video
+div
+how to cast out 
+text
+video
+div
+how to reel in a fish 
+text 
+video
+footer
+
+types of bait 
+-nav
+-splash page 
+how to choose bait
+div
+live bait
+text 
+video
+div
+lure
+text
+video
+div
+types of bait 
+photos of lures 
+text
+footer
+
+types of fish 
+- nav
+splash page 
+different fish in lakes and rivers 
+div 
+fish you will find in lakes 
+fish with button 
+div
+fish you will find in lakes and rivers
+fish with buttons
+div
+information on fish 
+table
+footer 
+
+Tips
+- nav
+splash page 
+div 
+the better you fish, the more you catch 
+div
+helpful tips
+texts
+photo
+div 
+bobber tips 
+texts
+photo
+div
+video
+footer 
