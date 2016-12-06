@@ -80,7 +80,9 @@ body {
     font:#efefef;
     text-align:center;
 }
-
+.instruction-1 {
+    padding:0 50 0 0;
+}
 .description {
     color:#efefef;
     font-size:17px;
@@ -98,6 +100,11 @@ body {
 .fifty {
     width:50%;
     float: left;
+    
+}
+.fifty-right {
+    width:50%;
+    float: right;
 }
 .fifty-one {
     width:100%;
@@ -112,7 +119,7 @@ body {
 .how-to-cast {
     background-color:#dcdcdc;
     width:100%;
-    height:100px;
+    height:170px;
     display:inline-block;
     vertical-align: top;
     text-align:center;
@@ -121,11 +128,27 @@ body {
 
 .title {
     color:#3082bf;
-}
+    padding:0 0 0 0;
+    }
+    .title-first {
+    color:#3082bf;
+    padding:45 0 0 0;
+    }
+    .title-title {
+    color:#3082bf;
+    padding:10 0 0 0;
+    }
+    .title-1 {
+    color:#3082bf;
+    padding:90 0 0 0;
+    }
+       .title-2 {
+    color:#3082bf;
+    padding:40 0 0 0;
+    }
 .how-to-tie {
     background-color:#c0c0c0;
-
-    height:300px;
+    height:500px;
     display:inline-block;
     vertical-align: top;
     font-size:15;
@@ -134,7 +157,7 @@ body {
 }
 .how-to-tie-last {
     background-color:#c0c0c0;
-    height:300px;
+    height:500px;
     display:inline-block;
     vertical-align: top;
     font-size:14;
@@ -142,9 +165,8 @@ body {
     /*text-align:right;*/
 }
 .how-to-tie-two {
-    background-color:#efefef;
-
-    height:300px;
+    background-color:#dcdcdc;
+    height:500px;
     display:inline-block;
     vertical-align: top;
     font-size:15;
@@ -153,16 +175,17 @@ body {
 }
 
 .video {
-    height:300px;
+    height:500px;
     display:inline-block;
     vertical-align: top;
     font-size:15;
     padding:0 0 0 0;
     margin:0 auto;
+    
 }
 
 .youtube {
-    padding:50 10 100 50;
+    padding:80 100 100 90;
 }
 
 #owl-demo .item{
