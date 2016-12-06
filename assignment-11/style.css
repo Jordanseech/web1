@@ -156,6 +156,10 @@ body {
     color:#3082bf;
     padding:74 0 0 99;
     }
+         .title-12 {
+    color:#3082bf;
+    padding:74 0 0 120;
+    }
        .title-2 {
     color:#3082bf;
     padding:40 0 0 0;
@@ -163,6 +167,10 @@ body {
     .title-4 {
     color:#3082bf;
     padding:73 0 0 70;
+    }
+       .title-5 {
+    color:#3082bf;
+    padding:73 0 0 30;
     }
 .how-to-tie {
     background-color:#c0c0c0;
@@ -266,4 +274,12 @@ body {
     min-width: 960px;
 }
 
- 
+@media only screen and (max-width: 499px){
+    body {
+        background-color:red;
+    }
+
+    
+    
+}
+
