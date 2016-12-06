@@ -88,10 +88,10 @@ body {
     padding:0 50 0 0;
 }
 .instruction-3 {
-    padding:0 90 0 30;
+    padding:0 10 10 90;
 }
 .instruction-2 {
-    padding:0 50 0 60;
+    padding:0 60 0 120;
 }
 .description {
     color:#efefef;
@@ -152,13 +152,17 @@ body {
     color:#3082bf;
     padding:90 0 0 40;
     }
+       .title-11 {
+    color:#3082bf;
+    padding:74 0 0 99;
+    }
        .title-2 {
     color:#3082bf;
     padding:40 0 0 0;
     }
     .title-4 {
     color:#3082bf;
-    padding:140 0 0 10;
+    padding:73 0 0 70;
     }
 .how-to-tie {
     background-color:#c0c0c0;
@@ -166,6 +170,7 @@ body {
     display:inline-block;
     vertical-align: top;
     font-size:15;
+    
     /*float:right;*/
     /*text-align:right;*/
 }
@@ -184,11 +189,16 @@ body {
     display:inline-block;
     vertical-align: top;
     font-size:15;
+    float:right;
     /*float:right;*/
     /*text-align:right;*/
    
 }
 
+    /*float:right;*/
+    /*text-align:right;*/
+   
+}
 .video {
     height:500px;
     display:inline-block;
@@ -204,6 +214,9 @@ body {
 }
 .youtube-2 {
     padding:100 7 9 0;
+}
+.youtube-3 {
+    padding:100 115 0;
 }
 .youtube-1 {
     padding:100 7 9 100;
