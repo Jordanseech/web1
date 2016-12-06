@@ -4,6 +4,9 @@ body {
     margin:0;
 }
 
+
+
+
 .logo {
     float: left;
     margin-right: 10px;
@@ -172,6 +175,7 @@ body {
     font-size:15;
     /*float:right;*/
     /*text-align:right;*/
+    min-width: 960px;
 }
 
 .video {
