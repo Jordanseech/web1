@@ -231,3 +231,7 @@ body {
 .hero-home {
     background-image: url('images/artboard1.png');
 }
+
+.width {
+    min-width: 960px;
+}
