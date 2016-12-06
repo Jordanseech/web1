@@ -3,18 +3,27 @@ body {
     font-family: helvetica,bold;
     margin:0;
 }
+
 .logo {
     float: left;
-    margin-right: 100px;
-    width: 0;
-    height: 0;
+    margin-right: 10px;
+    width:;
+    height:;
     padding: 100px 100px 0 0;
     background-image: url(images/logo.png);
-    background-size: 100px 50px;
+    background-size: 100px 76px;
     background-repeat: no-repeat;
  
 }
-
+.logo-footer {
+    float: center;
+    padding: 0px 0px 0 0;
+    background-image: url(images/logo.png);
+    background-size: 180px 120px;
+    background-repeat: no-repeat;
+    margin:0 0 0 0;
+    position:center;
+    }
 
 .nav-link {
     
@@ -25,6 +34,7 @@ body {
     color:white;
     text-decoration: none;
     }
+    
 .nav-link:hover {
     color:black;
     display:inline-block;
@@ -56,6 +66,13 @@ body {
     
     
 } 
+
+.instruction {
+    padding:0 50 0 0;
+}
+.instruction-two {
+    padding:0 0 0 0;
+}
 .hero-card-title {
     font-family: Helvetica, bold;
     margin: 0;
@@ -71,7 +88,26 @@ body {
     padding:20px;
     width: 600px;
     margin: -80px auto 100px auto;
+    
 }
+
+.section {
+    width: 100%;
+}
+
+.fifty {
+    width:50%;
+    float: left;
+}
+.fifty-one {
+    width:100%;
+    float:right;
+    text-align:center;
+    }
+    
+.color {
+    background-color:white;
+}    
 
 .how-to-cast {
     background-color:#dcdcdc;
@@ -82,16 +118,75 @@ body {
     text-align:center;
     font-size:15;
 }
+
+.title {
+    color:#3082bf;
+}
 .how-to-tie {
     background-color:#c0c0c0;
-    width:100%;
+
     height:300px;
+    display:inline-block;
+    vertical-align: top;
+    font-size:15;
+    /*float:right;*/
+    /*text-align:right;*/
+}
+.how-to-tie-last {
+    background-color:#c0c0c0;
+    height:300px;
+    display:inline-block;
+    vertical-align: top;
+    font-size:14;
+    /*float:right;*/
+    /*text-align:right;*/
+}
+.how-to-tie-two {
+    background-color:#efefef;
+
+    height:300px;
+    display:inline-block;
+    vertical-align: top;
+    font-size:15;
+    /*float:right;*/
+    /*text-align:right;*/
+}
+
+.video {
+    height:300px;
+    display:inline-block;
+    vertical-align: top;
+    font-size:15;
+    padding:0 0 0 0;
+    margin:0 auto;
+}
+
+.youtube {
+    padding:50 10 100 50;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+    background-color:#555555;
+    width:100%;
+    height:100px;
     display:inline-block;
     vertical-align: top;
     text-align:center;
     font-size:15;
-    float:right;
-    text-align:right;
+   }
+
+.text {
+    padding: 0 0 0 0;
+    margin:-13 0 0 0 ;
 }
 
 .hero-type {
