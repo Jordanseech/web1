@@ -4,6 +4,9 @@ body {
     margin:0;
 }
 
+
+
+
 .logo {
     float: left;
     margin-right: 10px;
@@ -28,9 +31,9 @@ body {
 .nav-link {
     
     display:inline-block;
-    margin:11px;
+    margin:10px;
     text-align:right;
-    padding:25 20 0 0px;
+    padding:10px;
     color:white;
     text-decoration: none;
     }
@@ -42,14 +45,13 @@ body {
 
 .main-nav {
     background-color:51657f;
-    font-size:18px;
+    font-size:15px;
     max-width:100%;
     text-align: right;
     margin: 0px;
-    position:fixed;
-    top:0;
-    width:100%;
-    }
+    
+   
+}
 
 .hero {
     background-repeat:no-repeat;
@@ -57,8 +59,7 @@ body {
     background-position:center center;
     width:100%;
     height:650;
-    min-width: 960px;
-    overflow:hidden;
+    min-width: 960;
    
     }
 
@@ -69,14 +70,9 @@ body {
     width: 600px;
     margin: 150px auto 100px auto;
     } 
-.instruction-three {
-    padding:0 0 0 110;
-}
-.instruction-four {
-    padding:0 0 0 90;
-}
+
 .instruction {
-    padding:0 40 0 20;
+    padding:0 50 0 30;
 }
 .instruction-two {
     padding:0 0 0 0;
@@ -90,6 +86,12 @@ body {
 }
 .instruction-1 {
     padding:0 50 0 0;
+}
+.instruction-3 {
+    padding:0 90 0 30;
+}
+.instruction-2 {
+    padding:0 50 0 60;
 }
 .description {
     color:#efefef;
@@ -132,7 +134,6 @@ body {
     vertical-align: top;
     text-align:center;
     font-size:15;
-    min-width: 960px
 }
 
 .title {
@@ -149,15 +150,15 @@ body {
     }
     .title-1 {
     color:#3082bf;
-    padding:90 0 0 0;
+    padding:90 0 0 40;
     }
        .title-2 {
     color:#3082bf;
     padding:40 0 0 0;
     }
-    .title-3 {
+    .title-4 {
     color:#3082bf;
-    padding:90 0 0 90;
+    padding:140 0 0 10;
     }
 .how-to-tie {
     background-color:#c0c0c0;
@@ -165,7 +166,6 @@ body {
     display:inline-block;
     vertical-align: top;
     font-size:15;
-    
     /*float:right;*/
     /*text-align:right;*/
 }
@@ -184,7 +184,7 @@ body {
     display:inline-block;
     vertical-align: top;
     font-size:15;
-    float:right;
+    /*float:right;*/
     /*text-align:right;*/
    
 }
@@ -200,7 +200,10 @@ body {
 }
 
 .youtube {
-    padding:80 100 100 90;
+    padding:100 7 9 40;
+}
+.youtube-2 {
+    padding:100 7 9 0;
 }
 
 #owl-demo .item{
