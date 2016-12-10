@@ -1,6 +1,7 @@
+font-family: 'Exo 2', sans-serif;
+font-family: 'Asap', sans-serif;
 body {
     background-color:#efefef;
-    font-family: helvetica,bold;
     margin:0;
 }
 
@@ -16,16 +17,20 @@ body {
     background-image: url(images/logo.png);
     background-size: 100px 76px;
     background-repeat: no-repeat;
- 
 }
+
+hover:logo {
+    cursor: pointer;
+}
+
 .logo-footer {
-    float: center;
-    padding: 0px 0px 0 0;
+    padding:20px 0px 0 0;
     background-image: url(images/logo.png);
     background-size: 180px 120px;
     background-repeat: no-repeat;
-    margin:0 0 0 0;
-    position:center;
+    margin:0 auto;
+    text-align: center;
+    background-position: center;
     }
 
 .nav-link {
@@ -36,6 +41,9 @@ body {
     padding:10px;
     color:white;
     text-decoration: none;
+    font-family: 'Exo 2';
+    font-variant:small-caps;
+    font-size:18px;
     }
     
 .nav-link:hover {
@@ -51,6 +59,9 @@ body {
     position:fixed;
     width:100%;
     top:0;
+    font-family:'Asap';
+    
+    
    }
 
 .hero {
@@ -61,6 +72,7 @@ body {
     height:650px;
     min-width:960px;
     padding-top: 100px;
+    
     
 
     }
@@ -75,12 +87,17 @@ body {
 
 .instruction {
     padding:0 50 0 30;
+    font-family:'Asap';
+    font-weight:0;
+    font-style:light;
+    letter-spacing:.1px;
 }
 .instruction-two {
     padding:0 0 0 0;
 }
 .hero-card-title {
-    font-family: Helvetica, bold;
+    font-family:'Exo 2';
+    font-weight: normal;
     margin: 0px;
     font-size:40px;
     font:#efefef;
@@ -91,10 +108,38 @@ body {
 }
 .instruction-3 {
     padding:0 10 10 90;
+       font-family:'Asap';
+    font-weight:0;
+    font-style:light;
+    letter-spacing:.1px;
+   
 }
 .instruction-2 {
     padding:0 60 0 120;
+    font-family:'Asap';
+    font-weight:0;
+    font-style:light;
+    letter-spacing: .1px
+    
 }
+.instruction-33 {
+    padding:0 80 10 70;
+    font-family:'Asap';
+    font-weight:0;
+    font-style:light;
+    letter-spacing:.1px;
+    line-height:33px;
+    font-size: 13.5px
+    }
+    .instruction-34 {
+    padding:0 80 10 100;
+    font-family:'Asap';
+    font-weight:0;
+    font-style:light;
+    letter-spacing:.1px;
+    line-height:33px;
+    font-size: 13.5px
+    }
 .description {
     color:#efefef;
     font-size:17px;
@@ -102,6 +147,9 @@ body {
     padding:20px;
     width: 600px;
     margin: -80px auto 100px auto;
+    font-family: 'Asap';
+    font-weight: normal;
+    line-height: 30px;
     
 }
 
@@ -157,10 +205,16 @@ body {
        .title-11 {
     color:#3082bf;
     padding:74 0 0 99;
+    font-family:'Asap';
+    font-weight:100;
+    font-style:light;
     }
          .title-12 {
     color:#3082bf;
     padding:74 0 0 120;
+    font-family:'Asap';
+    font-weight:200;
+    font-variant: small-caps;
     }
        .title-2 {
     color:#3082bf;
@@ -169,10 +223,16 @@ body {
     .title-4 {
     color:#3082bf;
     padding:73 0 0 70;
+       font-family:'Asap';
+    font-weight:100;
+    font-style:medium;
     }
        .title-5 {
     color:#3082bf;
     padding:73 0 0 30;
+     font-family:'Asap';
+    font-weight:200;
+    font-variant: small-caps;
     }
 .how-to-tie {
     background-color:#c0c0c0;
@@ -231,14 +291,7 @@ body {
 .youtube-1 {
     padding:100 7 9 100;
 }
-#owl-demo .item{
-  margin: 3px;
-}
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 
 .footer {
     background-color:#555555;
@@ -276,5 +329,20 @@ body {
     min-width: 960px;
 }
 
+.instruction, .instruction-2, .instruction-3 {
+    line-height: 33px;
+}
 
 
+.title-2, .title-title, .title-first .title-11 {
+    font-family:'Exo 2'; 
+    font-weight: 200;
+    font-style: italic;
+}
+    
+    
+.title-4, .title-11, .title  {
+    font-family:'Asap';
+    font-weight:200;
+    font-variant: small-caps;
+}
