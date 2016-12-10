@@ -3,6 +3,7 @@ font-family: 'Asap', sans-serif;
 body {
     background-color:#efefef;
     margin:0;
+     
 }
 
 
@@ -66,15 +67,13 @@ hover:logo {
 
 .hero {
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position:center center;
     width:100%;
-    height:650px;
+    height:600px;
     min-width:960px;
     padding-top: 100px;
-    
-    
-
+     
     }
 
 .hero-card {
@@ -318,6 +317,9 @@ hover:logo {
 
 .hero-tips {
     background-image: url('images/artboard4.png');
+    
+   
+    
 }
 
 .hero-home {
@@ -346,3 +348,36 @@ hover:logo {
     font-weight:200;
     font-variant: small-caps;
 }
+.menu th {
+    padding: 80 90 10 100; 
+}
+.menu .size {
+    min-width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Asap'; 
+    text-align: center;
+    float:center;
+}
+.menu td {
+    padding: 15px ;
+    vertical-align: center;
+    text-align: center;
+    font-family:'Asap'; 
+    
+}
+.menu dd {
+    margin-left: 0;
+    color: #666;
+    font-style: bold;
+    font-size: 14px;
+   vertical-align: center;
+}
+.menu .label {
+    text-align: center;
+}
+
+.bold {
+    font-style: bold;
+}
+    
