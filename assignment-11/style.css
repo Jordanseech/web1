@@ -1,11 +1,11 @@
 font-family: 'Exo 2', sans-serif;
 font-family: 'Asap', sans-serif;
+
 body {
     background-color:#efefef;
-    margin:0;
+    margin:0px;
     width:100%;
-     
-}
+     }
 
 
 
@@ -21,9 +21,7 @@ body {
     background-repeat: no-repeat;
 }
 
-hover:logo {
-    cursor: pointer;
-}
+
 
 .logo-footer {
     padding:20px 0px 0 0;
