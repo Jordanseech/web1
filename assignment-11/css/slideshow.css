@@ -2,18 +2,21 @@
 
 /* Set container properties and size */
 .container,.container-2 {
-  margin: 0 auto;
+  margin:0 auto;
   overflow: hidden;
   /*width: 600px;*/
-  height: auto;
+  height:auto;
   /*border: 5px solid #333;*/
   position: relative;
+  
 }
 
 #slides,#slides-2 {
   display: block; /* Prevent the slideshow from flashing on load */
-  overflow: hidden;
-  height: 400px;
+  overflow:hidden;
+  height: 500px;
+  width:700px;
+  padding: 20 10 10 250;
 }
 
 
