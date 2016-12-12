@@ -7,6 +7,10 @@
         <script src="js/jquery.slides.js" type="text/javascript"></script>
         
         <link href="css/slideshow.css" rel="stylesheet" type="text/css"></link>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+
+  </head>
 
     <title>
         
@@ -17,7 +21,7 @@
  
         
         
-                <link rel="stylesheet" href="style.css" type="text/css">
+                
                 
          <body style="margin:0">
              <div class="container">
@@ -33,62 +37,63 @@
              </nav>
              
            <div class="hero" style="background: linear-gradient(rgba(112,124,128,0.55),rgba(112,124,128,0.85)), url(images/artboard2.png);">
-            
-           
-           
-              <div class="hero-card">
-                <h1 class="hero-card-title">
-                   Types of Fish   
-                </h1>
+                <div class="hero-card">
+                    <h1 class="hero-card-title">
+                       Types of Fish   
+                    </h1>
                 </div>
                 <div>
                     <p class="description-1">
                     Choosing the right Bait can determine whether or not you catch Fish or not. It's important to know what the differences are between Live bait and Artificial bait.  
-                </p>
-                
-            </div>
+                    </p>
+                </div>
             </div>
             
-            
-              
             <div class="how-to-cast">
                 <h1 class="title-2">
                     Different fish in lakes and rivers  
                 </h1>
-               
-         
-            </div>
             </div>
             <div class="section">
                 
-                 <div class="fifty-one how-to-tie-last">
+                <div class="fifty-one how-to-tie-last">
                     <h1 class="title">
                       fish you will find in lakes    
                     </h1>
                     
-      <div id="slides">
-	  <img src="images/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-	  <img src="images/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-	  <img src="images/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-	  <img src="images/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
-	  
-	  <!-- Navigation between slides -->
-	  <a href="#" class="slidesjs-previous slidesjs-navigation"></a>
-	  <a href="#" class="slidesjs-next slidesjs-navigation"></a>
-	</div>
-</div>
-        
-                    
-                    <p class="instruction">
-                    </p>
-                    
-        
+                    <div class="container">
+                    	<div id="slides">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+                    	  
+                    	  <!-- Navigation between slides -->
+                    	  <a href="#" class="slidesjs-previous slidesjs-navigation"></a>
+                    	  <a href="#" class="slidesjs-next slidesjs-navigation"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
             <div class="fifty-one how-to-tie-two">
                <h1 class="title">
                    fish you will find in lakes and rivers 
                </h1>
+               
+                 <div class="container-2">
+                    	<div id="slides-2">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+                    	  <img src="http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+                    	  
+                    	  <!-- Navigation between slides -->
+                    	  <a href="#" class="slidesjs-previous slidesjs-navigation"></a>
+                    	  <a href="#" class="slidesjs-next slidesjs-navigation"></a>
+                        </div>
+                    </div>
+               
               </div>
                    
                 
@@ -172,19 +177,35 @@
                 </tbody>
             </table>
             </div>
+            
+             <footer>
+                <div class="footer logo-footer">
+                </div>
+            </footer>
         </div>
+                   
                    </div>
                   
             
             
-            <footer>
-                <div class="footer logo-footer">
-                </div>
-            </footer>
+     
            
-        <script type="text/javascript">
+   <script type="text/javascript">
 	$(function() {
 		$('#slides').slidesjs({
+			navigation: false,
+			play: {
+				active: false,
+				interval: 3000,
+				restartDelay: 2500,
+				pauseOnHover: true,
+				auto: true
+			}
+		});
+	});
+	
+		$(function() {
+		$('#slides-2').slidesjs({
 			navigation: false,
 			play: {
 				active: false,
@@ -198,7 +219,7 @@
 </script>
         
         </body>
-        </head>
+      
     
            
 
